@@ -50,9 +50,25 @@ h1 {
 	margin-right: 10px; 
 } 
 
+.left_arm:hover {
+	-webkit-transform: rotate(20deg);
+    -moz-transform: rotate(20deg);
+    -o-transform: rotate(20deg);
+    -ms-transform: rotate(20deg);
+    transform: rotate(20deg);
+}
+
 .right_arm { 
 	margin-left: 10px; 
-} 
+}
+
+.right_arm:hover {
+	-webkit-transform: rotate(-20deg);
+    -moz-transform: rotate(-20deg);
+    -o-transform: rotate(2-0deg);
+    -ms-transform: rotate(-20deg);
+    transform: rotate(-20deg);
+}
 
 .torso { 
 	width: 200px; 
@@ -89,6 +105,14 @@ h1 {
 
 .right_leg { 
 	margin-left: 30px; 
+}
+
+.right_leg:hover {
+	-webkit-transform: rotate(-20deg);
+    -moz-transform: rotate(-20deg);
+    -o-transform: rotate(-20deg);
+    -ms-transform: rotate(-20deg);
+    transform: rotate(-20deg);
 }
 
 .left_eye, .right_eye { 
